@@ -7,6 +7,7 @@
 		"cookie-parser": "^1.4.3",
 		"fcc-express-bground": "https://github.com/Em-Ant/fcc-express-bground-pkg.git"
 	},
+	"author": "Clark Ngo",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
