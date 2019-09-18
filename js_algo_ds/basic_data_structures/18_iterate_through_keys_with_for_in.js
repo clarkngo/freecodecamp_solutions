@@ -20,8 +20,8 @@ let users = {
 function countOnline(obj) {
   // change code below this line
   let usersOnline = 0;
-  for (let user in users) {
-    if (users[user]['online'] === true) {
+  for (let user in obj) {
+    if (obj[user]['online'] === true) {
        usersOnline++;
     }
   }
