@@ -1,4 +1,4 @@
-# https://learn.freecodecamp.org/apis-and-microservices/basic-node-and-express/use-the--env-file
+# Basic Node and Express - Implement a Root-Level Request Logger Middleware
 
 Before we introduced the express.static()middleware function. Now it’s time to see what middleware is, in more detail. Middleware functions are functions that take 3 arguments: the request object, the response object, and the next function in the application’s request-response cycle. These functions execute some code that can have side effects on the app, and usually add informations to the request or response objects. They can also end the cycle sending the response, when some condition is met. If they don’t send the response, when they are done they start the execution of the next function in the stack. This is triggered calling the 3rd argument next(). More information in the express documentation.
 
